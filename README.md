@@ -2,6 +2,7 @@
 
 This repository contains hands-on NLP projects completed as part of the Text Mining course at the German University in Cairo (GUC). Projects cover a range of text mining techniques including Bag-of-Words, One-Hot Encoding, Sentence Embedding, and Retrieval-Augmented Generation (RAG) using a restaurant dialogue dataset.
 
+```
 text-mining-guc/
 ├── README.md
 ├── requirements.txt
@@ -19,7 +20,7 @@ text-mining-guc/
 │   ├── NLP_Assignments.ipynb
 │   ├── Train.csv                    # For sentiment classification (BOW/OHE)
 │   └── TMDB_tv_dataset_v3.csv      # For speaker prediction (sentence embeddings)
-
+```
 
 
 
