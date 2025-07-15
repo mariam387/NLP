@@ -3,24 +3,23 @@
 This repository contains hands-on NLP projects completed as part of the Text Mining course at the German University in Cairo (GUC). Projects cover a range of text mining techniques including Bag-of-Words, One-Hot Encoding, Sentence Embedding, and Retrieval-Augmented Generation (RAG) using a restaurant dialogue dataset.
 
 text-mining-guc/
-│
 ├── README.md
 ├── requirements.txt
+├── .gitignore
 │
 ├── Final_Project/
 │   ├── main.py
 │   ├── vector.py
 │   ├── evaluate.py
 │   ├── realistic_restaurant_reviews.csv
-│   ├── chrome_langchain_db/               ← local vector DB folder (exclude from push if needed)
-│   └── venv/                              ← virtual environment (excluded using .gitignore)
+│   ├── chrome_langchain_db/         # Local vector DB (can be ignored in .gitignore)
+│   └── venv/                        # Virtual environment (should be ignored)
 │
 ├── NLP_Assignments/
 │   ├── NLP_Assignments.ipynb
-│   ├── Train.csv                          ← for sentiment classification (BOW/OHE)
-│   ├── TMDB_tv_dataset_v3.csv            ← for speaker prediction (sentence embedding)
-│
-└── .gitignore
+│   ├── Train.csv                    # For sentiment classification (BOW/OHE)
+│   └── TMDB_tv_dataset_v3.csv      # For speaker prediction (sentence embeddings)
+
 
 
 
